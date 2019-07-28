@@ -16,7 +16,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         System.out.println("........2onCreate");
 
-        setTitle("Activity 2");
+         
 
         Intent intent = getIntent(); //return a intent which is used to call this activity
         final int number1 = intent.getIntExtra("number1", 0);
